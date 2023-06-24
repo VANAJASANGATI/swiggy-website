@@ -41,7 +41,7 @@ const Body=()=>{
               <div className="search">
                 <div className="input-container">
                   <input type="search" onChange={(e)=>{setSearchTxt(e.target.value)}} value={searchTxt}/>
-                  <button type="submit" onClick={onClickSearch}>Search</button>
+                  <button type="submit" onClick={onClickSearch}>SearchButton</button>
                   {/* <button onClick={()=>{const filteredList=listOfRestaurents.filter((res)=>res.data.avgRating<4);
                 setListOfRestaurents(filteredList)
                 }}> searchRestaurentsOnRating</button> */}
